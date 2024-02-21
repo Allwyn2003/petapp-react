@@ -1,0 +1,90 @@
+.home {
+    background-image: url("C:\Users\allwin\Documents\petapp\petapp\src\components\images\PIN.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+.headerContainer {
+    width: auto;
+    margin-left: 30px;
+}
+
+.home .headerContainer h1 {
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.home .headerContainer p {
+    margin-top: 15px;
+    padding: 0;
+    font-size: 20px;
+    font-weight: lighter;
+    color: black;
+}
+
+.home .headerContainer button {
+    background-color: black;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.headerContainer button:hover {
+    background-color: #07090a;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+@media only screen and (max-width: 600px) {
+    .home {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .headerContainer {
+        margin-left: 0;
+        border-radius: 10px;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #121619;
+        color: white;
+    }
+
+    .home .headerContainer h1 {
+        font-size: 40px;
+        height: 30px;
+        margin: 30px 0px;
+        color: white;
+    }
+
+    .home .headerContainer p {
+        font-size: 30px;
+        color: white;
+    }
+
+    .headerContainer button {
+        background-color: white;
+        color: #121619;
+        margin-bottom: 30px;
+    }
+}

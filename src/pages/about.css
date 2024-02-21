@@ -1,0 +1,12 @@
+.about {
+    background-image: url("C:\Users\allwin\Documents\petapp\petapp\src\components\images\about3.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    text-align: left;
+
+}

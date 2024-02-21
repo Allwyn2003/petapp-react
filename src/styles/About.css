@@ -1,0 +1,17 @@
+.about {
+    display: flex;
+    flex-direction: row;
+    align-items: first baseline;
+}
+
+img {
+    width: 150px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+p {
+    font-size: large;
+    padding-top: 10px;
+    line-height: 1.5rem;
+}
